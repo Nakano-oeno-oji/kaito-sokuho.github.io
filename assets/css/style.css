@@ -35,3 +35,19 @@
     height: 17em;
     object-fit: cover;
 }
+.honbun-top {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5em;
+    margin: 1em 0em 0em 0em;
+}
+.contents {
+    background-color: rgb(245, 245, 245);
+}
+.honbun-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #2e99a9;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0.8em 0em 0em 0em;
+}
