@@ -13,4 +13,8 @@
 }
 .jumbotron{
     margin: 1em 0em 0em 1em;
-}
+    font-family: 'Roboto', sans-serif;
+    background:url(../images/sample.jpg) center no-repeat;
+    background-size: cover;
+    color: rgb(187, 187, 187);
+} 
