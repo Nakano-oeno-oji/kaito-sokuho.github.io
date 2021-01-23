@@ -1,2 +1,1 @@
-# KSkaitosokuho.github.io
-Hoge
+# [KSkaitosokuho.github.io](KSkaitosokuho.github.io)
