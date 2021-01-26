@@ -17,6 +17,23 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
         
+        <!-- リダイレクト -->
+        <script src="https://img.atcoder.jp/public/fc4b538/js/lib/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript">
+          $(function () {
+            cnt = 5; //リダイレクトまでの秒数
+            $('#countdown').text(cnt);
+            setInterval(function () {
+              if (cnt > 0) {
+                cnt--;
+              }
+              if (cnt <= 0) { //0になった際の処理
+                window.location.href = '/';
+              }
+              $('#countdown').text(cnt);
+            }, 1000);
+          });
+        </script>
     </head>
 
     <body>
@@ -41,6 +58,8 @@
             <h1 class="honbun-title">
                 404 NOT FOUND
             </h1>
+            <br>
+            <p style="text-align: center;"><span id="countdown"></span>秒後に自動的にトップページへ移動します</p>
         </div>
 
 
