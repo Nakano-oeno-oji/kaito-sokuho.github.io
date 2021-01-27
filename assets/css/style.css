@@ -135,11 +135,11 @@
         display: block;
         padding: 20px 0;
     }
-    .sp-nav .close {
+    .sp-nav .close1 {
         position: relative;
         padding-left: 20px;
     }
-    .sp-nav .close::before {
+    .sp-nav .close1::before {
         content: '';
         position: absolute;
         top: 50%;
@@ -150,7 +150,7 @@
         background: #fff;
         transform: rotate( 45deg );
     }
-    .sp-nav .close::after {
+    .sp-nav .close1::after {
         content: '';
         position: absolute;
         top: 50%;
@@ -193,14 +193,6 @@
     .smartphone-head-tx {
         padding: 0em 0em 0em 0em;
         font-family: 'Noto Sans JP', sans-serif;
-    }
-    .close {
-        font-family: 'Noto Sans JP', sans-serif;
-<<<<<<< HEAD
-        font-weight: 10;
-=======
->>>>>>> d7f458ae4eb837e25750f98ec36a3efd1d59fbe8
-        font-size: 1em;
     }
  }
 
