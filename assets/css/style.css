@@ -14,7 +14,7 @@
 .jumbotron {
     margin: 1em 0em 1em 0em;
     font-family: 'Noto Sans JP', sans-serif;
-    background:url(../images/sample2.jpg) center no-repeat;
+    background:url(/assets/images/sample2.jpg) center no-repeat;
     background-size: cover;
     color: rgb(201, 201, 201);
 } 
