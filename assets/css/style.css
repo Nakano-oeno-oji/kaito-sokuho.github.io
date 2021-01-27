@@ -196,7 +196,10 @@
     }
     .close {
         font-family: 'Noto Sans JP', sans-serif;
+<<<<<<< HEAD
         font-weight: 10;
+=======
+>>>>>>> d7f458ae4eb837e25750f98ec36a3efd1d59fbe8
         font-size: 1em;
     }
  }
