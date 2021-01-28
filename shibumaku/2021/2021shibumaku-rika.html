@@ -31,7 +31,7 @@
                   <a class="nav-link" href="/kaisei/kaisei.html">開成中</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="/shibumaku.html">渋幕中</a>
+                  <a class="nav-link active" href="/shibumaku/shibumaku.html">渋幕中</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/others/others_choice.html">その他の中学校</a>
@@ -45,40 +45,62 @@
             <nav class="sp-nav">
                 <ul>
                    <li><a href="/index.html" class="smartphone-tx">TOP PAGE</a></li>
-                   <li><a href="/kaisei/comming_soon.html" class="smartphone-tx">開成中</a></li>
-                   <li><a href="/shibumaku.html" class="smartphone-tx">渋幕中</a></li>
+                   <li><a href="/kaisei/kaisei.html" class="smartphone-tx">開成中</a></li>
+                   <li><a href="/shibumaku/shibumaku.html" class="smartphone-tx">渋幕中</a></li>
                    <li><a href="/others/others_choice.html" class="smartphone-tx">その他の中学校</a></li>
-                   <li class="close"><span>閉じる</span></li>
+                   <li class="close1"><span>閉じる</span></li>
                 </ul>
             </nav>
         </header>
         </div>
 
-        <div class="container">
-            <p class="honbun-top">最新のコンテンツ</p>
-            <hr class="line">
-              <!-- <div class="card">
-                  <div class="card-header">
-                    2021年度中学入試 解答速報
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">2021年度渋幕中の解答速報です</h5>
-                    <p class="card-text">この解答速報は、中学入試を経験した現役中学生が作成したものです。ぜひご活用ください！</p>
-                    <a href="/shibumaku/2021/shibumaku_subject_choice.html" class="btn btn-primary">ページへ</a>
-                  </div>
-                </div> -->
-                <p class="honbun-tx">準備中です。しばらくお待ちください...</p>
-            <p class="honbun">コンテンツ一覧</p>
-            <hr class="line">
-            <!-- <a href="/shibumaku/2021/shibumaku_subject_choice.html" class="card contents">
-              <div class="card-body">
-                2021年度渋幕中
-              </div>
-            </a> -->
-            <p class="honbun-tx">コンテンツはありません。更新までしばらくお待ちください...</p>
+      <div class="container">
+        <h1 class="honbun-title">
+            2021年 理科(1次)
+        </h1>
+          <p class="honbun-top">PDFダウンロード</p>
+          <hr class="line">
+          <a href="/assets/pdf/variantex.pdf" class="card contents" download>
+            <div class="card-body">
+              理科(1次)解答
+            </div>
+          </a>
+          <a href="/assets/pdf/variantex.pdf" class="card contents" download>
+            <div class="card-body">
+              理科(1次)解説
+            </div>
+          </a>
 
-        </div>
+          <p class="honbun">解答</p>
+          <hr class="line">
 
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col-1">大問番号</th>
+                <th scope="col-1">小問番号</th>
+                <th scope="col-10">解答</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" style="width: 8%;">1</th>
+                <td style="width: 8%;">(1)</td>
+                <td style="width: 84%;">ほげほげほげほげほげほげ</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>(2)</td>
+                <td>ねむぽよ</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>(1)</td>
+                <td>つらたん</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
         <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -86,7 +108,7 @@
         
         <script>
             $(function() {
-               const hum = $('#hamburger, .close')
+               const hum = $('#hamburger, .close1')
                const nav = $('.sp-nav')
                hum.on('click', function(){
                   nav.toggleClass('toggle');

@@ -28,10 +28,13 @@
                   <a class="nav-link" href="/index.html">Top page</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/kaisei/comming_soon.html">開成中</a>
+                  <a class="nav-link" href="/kaisei.html">開成中</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="/shibumaku.html">渋幕中</a>
+                  <a class="nav-link active" href="../shibumaku/shibumaku.html">渋幕中</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/others/others_choice.html">その他の中学校</a>
                 </li>
               </ul>
             
@@ -42,41 +45,42 @@
             <nav class="sp-nav">
                 <ul>
                    <li><a href="/index.html" class="smartphone-tx">TOP PAGE</a></li>
-                   <li><a href="/kaisei/comming_soon.html" class="smartphone-tx">開成中</a></li>
-                   <li><a href="/shibumaku.html" class="smartphone-tx">渋幕中</a></li>
-                   <li class="close"><span>閉じる</span></li>
+                   <li><a href="/kaisei/kaisei.html" class="smartphone-tx">開成中</a></li>
+                   <li><a href="../shibumaku/shibumaku.html" class="smartphone-tx">渋幕中</a></li>
+                   <li><a href="/others/others_choice.html" class="smartphone-tx">その他の中学校</a></li>
+                   <li class="close1"><span>閉じる</span></li>
                 </ul>
             </nav>
         </header>
         </div>
 
         <div class="container">
-            <h1 class="honbun-title">
-                2021年度 渋幕中
-            </h1>
-              <p class="honbun-top">コンテンツ一覧</p>
-              <hr class="line">
-              <a href="#" class="card contents">
-                <div class="card-body">
-                  国語(1次)(準備中)
-                </div>
-              </a>
-              <a href="#" class="card contents">
-                <div class="card-body">
-                  算数(1次)(準備中)
-                </div>
-              </a>
-              <a href="#" class="card contents">
-                <div class="card-body">
-                  理科(1次)(準備中)
-                </div>
-              </a>
-              <a href="/2021shibumaku-syakai.html" class="card contents">
-                <div class="card-body">
-                  社会(1次)(準備中)
-                </div>
-              </a>
-        </div>
+          <h1 class="honbun-title">
+              2021年度 渋幕中
+          </h1>
+            <p class="honbun-top">コンテンツ一覧</p>
+            <hr class="line">
+            <a class="card contents" href="/shibumaku/2021/2021shibumaku-kokugo.html">
+              <div class="card-body">
+                国語(1次)
+              </div>
+            </a>
+            <a class="card contents" href="/shibumaku/2021/2021shibumaku-sansu.html">
+              <div class="card-body">
+                算数(1次)
+              </div>
+            </a>
+            <a class="card contents" href="/shibumaku/2021/2021shibumaku-rika.html">
+              <div class="card-body">
+                理科(1次)
+              </div>
+            </a>
+            <a class="card contents" href="/shibumaku/2021/2021shibumaku-syakai.html">
+              <div class="card-body">
+                社会(1次)
+              </div>
+            </a>
+      </div>
 
         <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -85,7 +89,7 @@
         
         <script>
             $(function() {
-               const hum = $('#hamburger, .close')
+               const hum = $('#hamburger, .close1')
                const nav = $('.sp-nav')
                hum.on('click', function(){
                   nav.toggleClass('toggle');
