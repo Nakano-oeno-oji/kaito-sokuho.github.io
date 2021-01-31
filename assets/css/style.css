@@ -1,8 +1,3 @@
-/* スクロールバー非表示 */
-body {
-    /*overflow:hidden;*/
-}
-
 .nav {
     padding: 0.5em 1em 0em 1em;
 }
