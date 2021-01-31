@@ -1,12 +1,7 @@
 /* スクロールバー非表示 */
-.container {
-    overflow-y: scroll;
-    -ms-overflow-style: none;    /* IE, Edge 対応 */
-    scrollbar-width: none;       /* Firefox 対応 */
- }
- .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
-    display:none;
- }
+body {
+    overflow:hidden;
+}
 
 .nav {
     padding: 0.5em 1em 0em 1em;
