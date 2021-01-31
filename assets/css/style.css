@@ -1,6 +1,6 @@
 /* スクロールバー非表示 */
 body {
-    overflow:hidden;
+    /*overflow:hidden;*/
 }
 
 .nav {
