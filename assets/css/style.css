@@ -1,6 +1,7 @@
 /* スクロールバー非表示 */
-body {
-    /*overflow:hidden;*/
+::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
 }
 
 .nav {
@@ -13,7 +14,7 @@ body {
     color: rgb(71, 71, 71);
 }
 .head-tx {
-    padding: 0em 0em 0em 1em;
+    padding: 0em 0em 0em 0.5em;
     font-family: 'Noto Sans JP', sans-serif;
 }
 .jumbotron {
@@ -72,7 +73,10 @@ body {
     padding: 0.5em 0em 0.5em 0em;
     text-align: center;
 }
-@media screen and (max-width: 700px) {
+.Icon {
+    margin: 0em 0em 0em 1em;
+}
+@media screen and (max-width: 720px) {
     .nav-tabs {
        display: none;
     }
@@ -210,9 +214,12 @@ body {
         padding: 0em 0em 0em 0em;
         font-family: 'Noto Sans JP', sans-serif;
     }
+    .Icon {
+        display: none;
+    }
  }
 
- @media screen and (min-width: 700px) {
+ @media screen and (min-width: 721px) {
     #hamburger {
         display: none;
     }
