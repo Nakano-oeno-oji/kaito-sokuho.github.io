@@ -1,8 +1,12 @@
+::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
 .nav {
     padding: 0.5em 1em 0em 1em;
 }
 .head {
-    background-color: rgba(77, 72, 72, 0.199);
+    background-color: rgb(77, 72, 72, 0.199);
 }
 .nav-link {
     color: rgb(71, 71, 71);
@@ -10,6 +14,7 @@
 .head-tx {
     padding: 0em 0em 0em 0.5em;
     font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(0, 0, 0);
 }
 .jumbotron {
     margin: 1em 0em 1em 0em;
