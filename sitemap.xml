@@ -9,17 +9,117 @@
 <url>
   <loc>https://kaito-sokuho.github.io/kaisei/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2021-02-01T02:45:51+09:00</lastmod>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
 </url>
 <url>
   <loc>https://kaito-sokuho.github.io/shibumaku/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2021-02-01T02:45:51+09:00</lastmod>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
 </url>
 <url>
   <loc>https://kaito-sokuho.github.io/others/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2021-02-01T02:45:51+09:00</lastmod>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/kaisei/2021/2021kaisei-rika.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/azabu/2021/2021azabu-syakai.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/kaisei/2021/kaisei_subject_choice.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/oin_subject_choice.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/azabu/2021/azabu_subject_choice.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/kaisei/2021/pdf/rika-kaito.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/azabu/2021/pdf/syakai-kaito.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/kaisei/2021/2021kaisei-sansu.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/2021oin-kokugo.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/2021oin-sansu.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/2021oin-rika.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/2021oin-syakai.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/azabu/2021/2021azabu-sansu.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/kaisei/2021/pdf/sansu-kaito.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/pdf/kokugo-kaito.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/pdf/sansu-kaito.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/pdf/rika-kaito.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/oin/2021/pdf/Oin-syakai.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kaito-sokuho.github.io/others/azabu/2021/pdf/sansu-kaito.pdf</loc>
+  <priority>0.5</priority>
+  <lastmod>2021-02-02T13:53:03+09:00</lastmod>
 </url>
 
 </urlset>
